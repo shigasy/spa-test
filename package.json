@@ -1,6 +1,7 @@
 {
   "name": "spa-test",
   "version": "1.0.0",
+  "homepage": "https://mypozi.github.io/spa-test/",
   "description": "My stellar Nuxt.js project",
   "author": "MyPoZi",
   "private": true,
@@ -9,10 +10,12 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "gh-pages": "^2.1.1",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
