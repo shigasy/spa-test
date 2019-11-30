@@ -53,7 +53,7 @@ export default {
   ** Build configuration
   */
   generate: {
-    fallback: 'index.html'
+    fallback: false
   },
   build: {
     /*
