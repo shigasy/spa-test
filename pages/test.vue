@@ -17,6 +17,7 @@
     >
       Hello
     </button>
+    {{ msg }}
     <nuxt-link to="/">
       Home page
     </nuxt-link>
@@ -28,6 +29,11 @@ export default {
   data: () => ({
     msg: '',
     msg2: ''
-  })
+  }),
+  methods: {
+    getMsg () {
+      this.$axios.$get('/api/v1/hello').then(res => (this.msg = res.msg))
+    }
+  }
 }
 </script>

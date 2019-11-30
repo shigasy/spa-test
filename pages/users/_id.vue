@@ -12,9 +12,6 @@ export default {
   data: () => ({
     msg: '',
     msg2: ''
-  }),
-  created () {
-    this.getMsg2()
-  }
+  })
 }
 </script>
