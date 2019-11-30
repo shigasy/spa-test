@@ -20,6 +20,9 @@
     <nuxt-link to="/test">
       Home page
     </nuxt-link>
+    <nuxt-link to="/users/test">
+      Home test
+    </nuxt-link>
   </div>
 </template>
 
